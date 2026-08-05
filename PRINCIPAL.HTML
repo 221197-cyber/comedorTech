@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Principal</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container mt-5">
+
+<h2>COMEDOR-TECH</h2>
+
+<input
+type="text"
+class="form-control mt-3"
+placeholder="Código del Ticket">
+
+<button
+class="btn btn-success mt-3"
+onclick="validar()">
+Validar Entrada
+</button>
+
+<table class="table table-bordered mt-4">
+
+<thead>
+
+<tr>
+
+<th>Código</th>
+
+<th>Nombre</th>
+
+<th>Turno</th>
+
+<th>Estado</th>
+
+</tr>
+
+</thead>
+
+<tbody id="datos">
+
+</tbody>
+
+</table>
+
+<button
+class="btn btn-primary">
+Registrar como Atendido
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
